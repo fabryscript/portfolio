@@ -1,15 +1,15 @@
-import { Box, Text } from '@chakra-ui/react';
 import React from 'react';
+import { Box, Text } from '@chakra-ui/react';
 import { Typewriter } from 'react-typewriting-effect';
-
-interface InfoCardProps {
+import SkillsChart from './SkillsChart';
+interface SkillsCardProps {
   colorMode: string
   sectionRef: React.MutableRefObject<null | HTMLDivElement>
   twString: string,
   infoP: string
 }
 
-export const InfoCard: React.FC<InfoCardProps> = ({
+export const SkillsCard: React.FC<SkillsCardProps> = ({
   colorMode,
   infoP,
   sectionRef,
@@ -35,6 +35,7 @@ export const InfoCard: React.FC<InfoCardProps> = ({
           <Text fontSize={["lg", "2xl"]} mt="2%">
           {infoP}
           </Text>
+          <SkillsChart/>
         </Box>
       </Box>
   );
