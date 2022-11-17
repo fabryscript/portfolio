@@ -50,9 +50,6 @@ export const theme = extendTheme({
 });
 
 function Routes() {
-  useEffect(() => {
-    localStorage.setItem("chakra-ui-color-mode", "dark");
-  })
   return (
     <ChakraProvider theme={theme}>
       <RouterProvider router={routes} />
