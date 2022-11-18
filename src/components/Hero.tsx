@@ -19,7 +19,7 @@ export default function Hero() {
         py={{ base: 20, md: 28 }}
         direction={"column"}
       >
-        <Stack flex={1} spacing={{ base: 5, md: 10 }}>
+        <Stack flex={1} spacing={{ base: 20, md: 10 }}>
           <Box className="typewriter">
             <Heading
               as="h1"
