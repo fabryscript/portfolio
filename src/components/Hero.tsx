@@ -25,7 +25,7 @@ export default function Hero() {
               as="h1"
               textAlign={"center"}
               fontWeight={650}
-              fontSize={{ base: "5xl", sm: "104px", lg: "124px" }}
+              fontSize={{ base: "45px" , md: "100px", lg: "124px" }}
               bgGradient="linear(to-r, #00B5D8, #B794F4)"
               bgClip="text"
             >

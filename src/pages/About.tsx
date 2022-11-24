@@ -1,6 +1,6 @@
 import { Box, Button, Heading, HStack, Text } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
-import Layout from "./components/Layout";
+import Layout from "../components/Layout";
 
 const italianParagraphs = [
   "Sono uno sviluppatore frontend che vanta un'esperienza pluriennale nell'ambito dello sviluppo web.",
@@ -29,7 +29,7 @@ function About() {
   }, [language]);
 
   return (
-    <Layout>
+    <Layout next="/portfolio">
       <Box p="2%">
         <Heading
           as="h1"

@@ -3,33 +3,24 @@ import {
   extendTheme,
   type ThemeConfig,
 } from "@chakra-ui/react";
-import { useEffect } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import About from "./About";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
-import Home from "./Home";
+import About from "../pages/About";
+import Home from "../Home";
+import Portfolio from "../pages/Portfolio";
+import Wrapper from "./Wrapper";
 
 const routes = createBrowserRouter([
   {
     path: "/",
-    element: (
-      <>
-        <Navbar />
-        <Home />
-        <Footer />
-      </>
-    ),
+    element: <Wrapper children={<Home />} />,
   },
   {
     path: "/about",
-    element: (
-      <>
-        <Navbar />
-        <About />
-        <Footer />
-      </>
-    ),
+    element: <Wrapper children={<About />} />
+  },
+  {
+    path: "/portfolio",
+    element: <Wrapper children={<Portfolio />} />
   },
 ]);
 
