@@ -15,7 +15,7 @@ const works: WorkProps[] = [
   {
     title: "Mesan Padel Prenotazioni",
     description: "A web application for booking padel courts.",
-    imageURL: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg",
+    imageURL: "https://prenotazioni.mesanpadel.it/assets/logo.5a9ad92c.png",
     websiteLink: "https://prenotazioni.mesanpadel.it",
     githubLink: "",
     isPrivate: true,
@@ -28,12 +28,11 @@ const works: WorkProps[] = [
   {
     title: "Let's Fit JA (2020-2021)",
     description: "Official site of Junior Achievement's business Lets Fit JA, which includes a blog and an e-commerce",
-    imageURL: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg",
+    imageURL: "https://cdn.discordapp.com/attachments/1003018523670487070/1066665287115624458/ittlogo.png",
     websiteLink: "https://letsfitja.netlify.app",
     githubLink: "https://github.com/fabryscript/lets-fit-ws",
     isPrivate: false,
     languages: [
-      "JavaScript",
       "TypeScript",
       "React",
       "Chakra UI"
@@ -42,7 +41,7 @@ const works: WorkProps[] = [
   {
     title: "DeltaSolutions",
     description: "The official website of my business",
-    imageURL: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg",
+    imageURL: "https://cdn.discordapp.com/attachments/1003018523670487070/1044620576045662260/logo.png",
     websiteLink: "https://deltasolutions.it",
     githubLink: "",
     isPrivate: true,
@@ -53,7 +52,7 @@ const works: WorkProps[] = [
   {
     title: "ItaliaRevenge Dashboard",
     description: "Official site of the discord server ItaliaRevenge, which contains useful features for visualizing data usage",
-    imageURL: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg",
+    imageURL: "https://cdn.discordapp.com/attachments/1003018523670487070/1054772643758342174/phoenics.png",
     websiteLink: "https://discord.italiarevenge.it",
     githubLink: "",
     isPrivate: true,

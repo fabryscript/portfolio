@@ -10,6 +10,8 @@ import {
   Heading,
   HStack,
   Image,
+  SimpleGrid,
+  Stack,
   Text,
   VStack,
 } from "@chakra-ui/react";
@@ -65,13 +67,13 @@ function Work({
           <Image rounded={"3xl"} maxW="65%" src={imageURL} />
         </Center>
         <VStack spacing={2} mt="2%">
-          <HStack mt="2%">
+          <Stack direction={"row"} mt="2%">
             {languages.map((l, i) => (
               <Badge key={i} colorScheme={getColor(l)}>
                 {l}
               </Badge>
             ))}
-          </HStack>
+          </Stack>
           <Text>{description}</Text>
         </VStack>
       </CardBody>
