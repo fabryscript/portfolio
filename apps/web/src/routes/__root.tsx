@@ -5,8 +5,6 @@ import {
 } from "@tanstack/react-router";
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
 
-import { ThemeProvider } from "@/components/theme-provider";
-
 import "../index.css";
 
 export type RouterAppContext = {};
@@ -16,17 +14,22 @@ export const Route = createRootRouteWithContext<RouterAppContext>()({
 	head: () => ({
 		meta: [
 			{
-				title: "portfolio-v2",
+				title: "fabryscript",
 			},
 			{
 				name: "description",
-				content: "portfolio-v2 is a web application",
+				content: "Fullstack Developer based in Sicily, Italy.",
 			},
 		],
 		links: [
 			{
 				rel: "icon",
 				href: "/favicon.ico",
+			},
+			{
+				rel: "icon",
+				type: "image/svg+xml",
+				href: "/favicon.svg",
 			},
 		],
 	}),
@@ -36,16 +39,9 @@ function RootComponent() {
 	return (
 		<>
 			<HeadContent />
-			<ThemeProvider
-				attribute="class"
-				defaultTheme="dark"
-				disableTransitionOnChange
-				storageKey="vite-ui-theme"
-			>
-				<div className="grid h-svh grid-rows-[auto_1fr]">
-					<Outlet />
-				</div>
-			</ThemeProvider>
+			<div className="grid h-svh grid-rows-[auto_1fr]">
+				<Outlet />
+			</div>
 			<TanStackRouterDevtools position="bottom-left" />
 		</>
 	);
