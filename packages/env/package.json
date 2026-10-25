@@ -8,8 +8,7 @@
   },
   "dependencies": {
     "@t3-oss/env-core": "^0.13.11",
-    "dotenv": "catalog:",
-    "zod": "catalog:"
+    "dotenv": "catalog:"
   },
   "devDependencies": {
     "@portfolio-v2/config": "workspace:*",
