@@ -8,11 +8,11 @@
   },
   "dependencies": {
     "@t3-oss/env-core": "^0.13.11",
-    "dotenv": "catalog:"
+    "dotenv": "^17.4.2"
   },
   "devDependencies": {
-    "@portfolio-v2/config": "workspace:*",
-    "@types/node": "catalog:",
-    "typescript": "catalog:"
+    "@portfolio-v2/config": "*",
+    "@types/node": "^26.2.0",
+    "typescript": "^6.0.3"
   }
 }
