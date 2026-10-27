@@ -100,7 +100,7 @@ function HomeComponent() {
 						</p>
 						<div className="flex items-center justify-between pt-4">
 							<div className="flex items-center gap-2">
-								<a href="mailto:fabrizioemanuelepiperno@gmail.com">
+								<a href="mailto:hello@fabryscript.dev">
 									<Button size="lg">Get in touch</Button>
 								</a>
 								<a href="/cv.pdf" download>
